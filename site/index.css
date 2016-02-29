@@ -1,0 +1,178 @@
+
+/* Base Styles */
+
+*{
+	box-sizing: border-box; 
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+			
+}
+
+
+h1 {
+	color: 0xffffff;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+		
+.content { 
+	position: relative;
+	top: 50px;
+	left: 0;
+	color: 0xffffff;
+ 	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-left: 15px; 
+	padding-right: 15px;
+  
+}  
+
+.row {
+  
+	width: 100%;
+	margin-bottom: 10em;
+			
+}
+
+.menu-heading-1{
+	width: 30%;
+	border: solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #C7A2EB;
+	padding: 10px;
+  
+}
+
+.menu-heading-2{
+	width: 30%;
+	border: solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #EBEBA2;
+	padding: 10px;
+  
+}
+
+.menu-heading-3{
+	width: 30%;
+	border: solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #BCF4F5;
+	padding: 10px;
+  
+}
+		
+.col-1 {
+	position: relative;
+	float: left;
+	border: solid black;
+	background-color: #90D4D4;
+	width: 75%;
+	height: 19em; 
+	margin-left: 2em;
+	margin-bottom: 2em;
+	overflow: auto;
+		}
+		
+.col-2 {
+	position: relative;
+	float: left;
+	border: solid black;
+	background-color: #81E3B2;
+	width: 75%;
+	height: 19em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+	overflow: auto;
+}
+			
+.col-3 {
+	position: relative;
+	float: left;
+	border: solid black;
+	background-color: #DABCF5;
+	width: 75%;
+	height: 19em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+	margin-right: 3em;
+	overflow: auto;
+    
+}
+
+/* desktop devices only */
+
+@media (min-width: 992px){
+	.col-1 {
+		width: 28%;
+		height: 225px;
+				
+				
+	}
+	
+	.col-2 {
+		width: 28%;
+		height: 225px;
+	}
+			
+	.col-3 {
+		width: 28%;
+		height: 225px;
+				
+				
+	}
+    
+}
+		
+/* Tablet devices only */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-1 {
+			
+		width: 45%;
+		height: 250px;
+	}
+			
+	.col-2 {
+				
+		width: 44%;
+		height: 250px;
+	}
+			
+	.col-3 {
+				
+		width: 93.5%;
+		height: 175px;
+			
+	}
+}
+		
+/* phones devices only */
+@media (max-width: 767px){
+	.col-1 {
+		width: 92%;
+		height: 180px;
+		margin-left: 1em;
+	}
+			
+	.col-2 {
+		width: 92%;
+		height: 180px;
+		margin-left: 1em;
+	}
+			
+	.col-3 {
+		width: 92%;
+		height: 180px;
+		margin-left: 1em;
+	}
+}
+
+
